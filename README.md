@@ -67,7 +67,8 @@ For Model-1
 404 itemes were candidates to be  a planet, with 435 confirmed and 909 as a false positive.
 
  # Results of Weighted avg 
- 0.41      0.36      0.38      1748
+ precision    recall  f1-score   support
+ 0.41         0.36    0.38       1748
 
 In this model I was able to predict the following scores.
 
