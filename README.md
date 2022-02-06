@@ -62,8 +62,11 @@ For Model-1
 * The next step was assigning X and y values for the model to perform split data to get train and test data for the model.
  Changing to StandardScaler to scale the data resulted better numbers for the scores, 
  
- ### Training Data Score: 0.8371161548731643  
- ### Testing Data Score: 0.8564073226544623.
+ ### Training Data Score: 0.8371161548731643  = 83.7 %
+ Not bad, but not that desirable we want closer to 86.
+ 
+ ### Testing Data Score: 0.8564073226544623. = 85.6%
+ This was a better result and more promising.
 
 * I then used GridSearchCV to tune the model's parameters and changing the grid parameters C and gamma did get a score improvement.
 
