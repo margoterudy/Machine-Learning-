@@ -57,7 +57,7 @@ Completed:
 For Model-1 
 * The first step after reading the data was decide which features to keep for the model. 
 
-* I removed  featureswith values are mostly 0's. Removing them increases the accuracy of the model, but that unfortunately that wasn't the case. Also removing columns for all features didn't improve the accuracy but, decreased the accuracy dramatically.
+* I removed  features with values are mostly 0's. Removing them increases the accuracy of the model, but that unfortunately that wasn't the case. Also removing columns for all features didn't improve the accuracy.
 
 * The next step was assigning X and y values for the model to perform split data to get train and test data for the model.
  Changing to StandardScaler to scale the data resulted better numbers for the scores, Training Data Score: 0.8371161548731643 ,Testing Data Score: 0.8564073226544623.
