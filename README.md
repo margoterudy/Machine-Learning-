@@ -52,7 +52,7 @@ Completed:
 ### REPORT
 ![data.png](Images/data.png)
 
-### Analysis
+# Analysis
 
 For Model-1 
 * The first step after reading the data was decide which features to keep for the model. 
