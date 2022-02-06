@@ -49,10 +49,11 @@ Completed:
 ### Reporting
 * Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
 
-##REPORT
+## REPORT
 ![data.png](Images/data.png)
 
-###Analysis
+### Analysis
+
 Model-1 SVM
 The first step after reading the datawas decide which features to keep for the model. 
 
