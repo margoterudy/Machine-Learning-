@@ -69,11 +69,12 @@ For Model-1
  # Results of Weighted avg 
  ### Precision 0.41        Recall 0.36    F1-score: 0.38   Support: 1748
 
-In this model I was able to predict the following scores.
+In this model I was able to predict the following score.
 
 ### 87.5% 
 
 I found better results with Hyperparameter Tuning, with a result of 87% accuracy. ALthough this isn't too strong of an accuracy either. The goal is to get into the 90th percentile.
+
 I believe results could improve if we have more Properties columns available.With research we could incorporate "Ensemble Methods" like bagging or boosting.
 
 
