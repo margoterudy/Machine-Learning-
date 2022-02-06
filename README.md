@@ -73,7 +73,10 @@ In this model I was able to predict the following scores.
 Training Data Score: 0.8371161548731643
 Testing Data Score: 0.8564073226544623
 
-I found better results with Hyperparameter Tuning, with a result of 87% accuracy. 
+I found better results with Hyperparameter Tuning, with a result of 87% accuracy.
+I believe results could improve if we have more Properties columns available.With research we could incorporate "Ensemble Methods" like bagging or boosting.
+
+
 
 
 
