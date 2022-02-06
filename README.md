@@ -55,18 +55,18 @@ Completed:
 ### Analysis
 
 For Model-1 
-The first step after reading the datawas decide which features to keep for the model. 
+* The first step after reading the datawas decide which features to keep for the model. 
 
-I removed  featureswith values are mostly 0's. Removing them increases the accuracy of the model, but that unfortunately that wasn't the case. Also removing columns for all features didn't improve the accuracy but, decreased the accuracy dramatically.
+* I removed  featureswith values are mostly 0's. Removing them increases the accuracy of the model, but that unfortunately that wasn't the case. Also removing columns for all features didn't improve the accuracy but, decreased the accuracy dramatically.
 
-The next step was assigning X and y values for the model to perform split data to get train and test data for the model.
+* The next step was assigning X and y values for the model to perform split data to get train and test data for the model.
  Changing to StandardScaler to scale the data resulted better numbers for the scores, Training Data Score: 0.8371161548731643 ,Testing Data Score: 0.8564073226544623.
 
-I then used GridSearchCV to tune the model's parameters and changing the grid parameters C and gamma did get a score improvement.
+* I then used GridSearchCV to tune the model's parameters and changing the grid parameters C and gamma did get a score improvement.
 
 404 itemes were candidates to be  a planet, with 435 confirmed and 909 as a false positive.
 
-  weighted avg       0.41      0.36      0.38      1748
+ # Results of Weighted avg       0.41      0.36      0.38      1748
 
 In this model I was able to predict the following scores.
 
