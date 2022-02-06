@@ -60,7 +60,10 @@ For Model-1
 * I removed  features with values are mostly 0's. Removing them increases the accuracy of the model, but that unfortunately that wasn't the case. Also removing columns for all features didn't improve the accuracy.
 
 * The next step was assigning X and y values for the model to perform split data to get train and test data for the model.
- Changing to StandardScaler to scale the data resulted better numbers for the scores, Training Data Score: 0.8371161548731643 ,Testing Data Score: 0.8564073226544623.
+ Changing to StandardScaler to scale the data resulted better numbers for the scores, 
+ 
+ ### Training Data Score: 0.8371161548731643  
+ ### Testing Data Score: 0.8564073226544623.
 
 * I then used GridSearchCV to tune the model's parameters and changing the grid parameters C and gamma did get a score improvement.
 
