@@ -67,12 +67,12 @@ For Model-1
 404 itemes were candidates to be  a planet, with 435 confirmed and 909 as a false positive.
 
  # Results of Weighted avg 
- Precision 0.41        Recall 0.36    F1-score: 0.38   Support: 1748
+ ### Precision 0.41        Recall 0.36    F1-score: 0.38   Support: 1748
 
 In this model I was able to predict the following scores.
 
-Training Data Score: 0.8371161548731643
-Testing Data Score: 0.8564073226544623
+### Training Data Score: 0.8371161548731643
+### Testing Data Score: 0.8564073226544623
 
 I found better results with Hyperparameter Tuning, with a result of 87% accuracy.
 I believe results could improve if we have more Properties columns available.With research we could incorporate "Ensemble Methods" like bagging or boosting.
