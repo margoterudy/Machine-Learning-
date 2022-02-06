@@ -54,7 +54,7 @@ Completed:
 
 ### Analysis
 
-For Model-1 SVM
+For Model-1 
 The first step after reading the datawas decide which features to keep for the model. 
 
 I removed  featureswith values are mostly 0's. Removing them increases the accuracy of the model, but that unfortunately that wasn't the case. Also removing columns for all features didn't improve the accuracy but, decreased the accuracy dramatically.
